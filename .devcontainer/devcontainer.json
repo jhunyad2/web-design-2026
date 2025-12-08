@@ -1,0 +1,13 @@
+{
+  "name": "Web Design Codespace",
+  "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.live-server"
+      ]
+    }
+  },
+  "forwardPorts": [5500],
+  "postCreateCommand": "npm install"
+}
